@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{
+    color:rgba(128, 0, 119, 0.913);
+}
+
+hr{
+    width: 600px;
+   
+    
+}
+
+#errors{
+    color: rgba(255, 80, 80, 0.902);
+}
+
+.tile{
+    height: 48px;
+    width: 48px;
+    border: 1px solid rgba(211, 211, 211, 0.744);
+    font-size: 20px;
+    color:rgb(176, 127, 255);
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.number{
+    height: 44px;
+    width: 44px;
+    border: 4px solid rgb(22, 91, 128);
+    border-radius: 30%;
+    margin:0 auto;
+
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+#board{
+    height: 450px;
+    width:450px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#digits{
+    height: 50px;
+    width:550px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-top: 1px solid rgba(0, 0, 0, 0.744);
+}
+
+.vertical-line {
+    border-right: 1px solid rgba(0, 0, 0, 0.676);
+}
